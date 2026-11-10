@@ -410,7 +410,7 @@ export function VoiceAssistant({ contextSource = 'dashboard', autoOpen = false }
             <Mic size={22} />
           </div>
           <span className="voice-assistant-fab__label">
-            Voice Assistant
+            gnan-cropShield Voice
           </span>
           <span className="voice-assistant-fab__badge">
             Gnani AI
@@ -428,7 +428,7 @@ export function VoiceAssistant({ contextSource = 'dashboard', autoOpen = false }
                 <Sparkles size={18} />
               </div>
               <div>
-                <h3 className="voice-assistant-drawer__title">CropShield Voice Assistant</h3>
+                <h3 className="voice-assistant-drawer__title">gnan-cropShield Voice Assistant</h3>
                 <p className="voice-assistant-drawer__sub">
                   Powered by Gnani Prisma & Timbre • {currentLangObj.name} ({currentLangObj.code})
                 </p>
