@@ -155,7 +155,7 @@ export function DashboardLayout({ role }: { role: UserRole }) {
   useEffect(() => {
     const currentNav = navItems.find(item => item.path === location.pathname);
     const pageTitle = currentNav ? currentNav.label : 'Dashboard';
-    document.title = `${pageTitle} · CropShield AI`;
+    document.title = `${pageTitle} · gnan-cropShield`;
   }, [location.pathname, navItems]);
 
   const handleLogout = () => {

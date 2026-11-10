@@ -7,10 +7,10 @@ export function AboutPage() {
     <div className="public-page">
       <div className="public-page__hero">
         <div className="container">
-          <h1>About CropShield AI</h1>
+          <h1>About gnan-cropShield</h1>
           <p className="public-page__lead">
-            A proactive crop health early-warning and decision support system designed
-            to protect India's agricultural ecosystem through AI-powered disease prediction,
+            A voice-first proactive crop health early-warning and decision support system powered by
+            Gnani AI, designed to protect India's agricultural ecosystem through speech intelligence,
             real-time monitoring, and expert-verified recommendations.
           </p>
         </div>
@@ -37,16 +37,17 @@ export function AboutPage() {
             <Users size={32} />
             <h3>Stakeholders</h3>
             <p>
-              CropShield AI connects farmers, agriculture officers, and agricultural experts
+              gnan-cropShield connects farmers, agriculture officers, and agricultural experts
               in a collaborative ecosystem for rapid disease identification and response.
             </p>
           </div>
           <div className="about-card">
             <Award size={32} />
-            <h3>SIH 2026</h3>
+            <h3>Gnani AI Hackathon 2026</h3>
             <p>
-              This prototype is developed as part of the Smart India Hackathon 2026 initiative,
-              addressing the critical need for technology-driven agricultural solutions in India.
+              This prototype is developed for the Gnani AI Hackathon 2026 initiative,
+              integrating Gnani AI's conversational voice engine (Prisma STT & Timbre TTS) to solve
+              rural literacy and digital access barriers in India.
             </p>
           </div>
         </div>

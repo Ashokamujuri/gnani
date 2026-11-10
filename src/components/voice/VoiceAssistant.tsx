@@ -402,8 +402,8 @@ export function VoiceAssistant({ contextSource = 'dashboard', autoOpen = false }
           type="button"
           className="voice-assistant-fab"
           onClick={() => setIsOpen(true)}
-          title="Open CropShield Multilingual Voice Assistant"
-          aria-label="Open CropShield Multilingual Voice Assistant"
+          title="Open gnan-cropShield Multilingual Voice Assistant"
+          aria-label="Open gnan-cropShield Multilingual Voice Assistant"
         >
           <div className="voice-assistant-fab__pulse" />
           <div className="voice-assistant-fab__icon">
@@ -571,7 +571,7 @@ export function VoiceAssistant({ contextSource = 'dashboard', autoOpen = false }
             {assistantState === 'Processing' && (
               <div className="voice-assistant-processing-card">
                 <RefreshCw size={22} className="spin" />
-                <p>Analyzing query with CropShield & Gnani AI engine...</p>
+                <p>Analyzing query with gnan-cropShield & Gnani AI engine...</p>
               </div>
             )}
 

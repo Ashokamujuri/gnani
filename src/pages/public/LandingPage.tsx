@@ -48,7 +48,7 @@ export function LandingPage() {
           <div className="landing-hero__content">
             <div className="landing-hero__badge">
               <Shield size={14} />
-              <span>{tr('Smart India Hackathon 2026')}</span>
+              <span>{tr('Gnani AI Hackathon 2026')}</span>
             </div>
             <h1 className="landing-hero__title">
               {tr('Proactive Crop Health')}
@@ -92,7 +92,7 @@ export function LandingPage() {
             <div className="landing-hero__card">
               <div className="landing-hero__card-header">
                 <Shield size={20} />
-                <span>{tr('CropShield AI Active')}</span>
+                <span>{tr('gnan-cropShield Active (Gnani AI)')}</span>
               </div>
               <div className="landing-hero__card-stats">
                 <div className="landing-hero__card-stat">
@@ -121,7 +121,7 @@ export function LandingPage() {
       <section className="landing-section landing-pipeline">
         <div className="container">
           <div className="landing-section__header">
-            <h2>{tr('How CropShield Works')}</h2>
+            <h2>{tr('How gnan-cropShield Works')}</h2>
             <p className="text-muted">{tr('Our six-stage pipeline ensures comprehensive crop protection')}</p>
           </div>
           <div className="landing-pipeline__grid">
@@ -174,10 +174,10 @@ export function LandingPage() {
       <section className="landing-cta">
         <div className="container landing-cta__inner">
           <h2>{tr('Ready to protect your crops?')}</h2>
-          <p>{tr('Join thousands of farmers already using CropShield AI for proactive crop health management.')}</p>
+          <p>{tr('Join thousands of farmers already using gnan-cropShield for proactive crop health management.')}</p>
           <Link to="/login">
             <Button variant="primary" size="lg">
-              {tr('Start Using CropShield')} <ArrowRight size={18} />
+              {tr('Start Using gnan-cropShield')} <ArrowRight size={18} />
             </Button>
           </Link>
         </div>

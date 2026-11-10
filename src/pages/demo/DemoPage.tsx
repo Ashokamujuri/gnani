@@ -1,8 +1,8 @@
 // ============================================
-// CropShield AI – SIH 2026 Demo Presentation
+// gnan-cropShield – Gnani AI Hackathon 2026 Demo Presentation
 // ============================================
 // A guided, interactive, end-to-end demo that
-// tells the complete CropShield story in 9 steps.
+// tells the complete gnan-cropShield story in 9 steps.
 // Route: /demo
 // ============================================
 
@@ -75,8 +75,8 @@ export function DemoPage() {
       {/* Top Bar */}
       <div className="demo-topbar">
         <div className="demo-topbar__brand">
-          <Shield size={18} /> CropShield AI
-          <span className="demo-topbar__badge">SIH 2026 Demo</span>
+          <Shield size={18} /> gnan-cropShield
+          <span className="demo-topbar__badge">Gnani AI Hackathon</span>
         </div>
         <div className="demo-topbar__actions">
           <button className="demo-topbar__btn" onClick={restart}><RotateCcw size={12} /> Restart</button>
@@ -168,7 +168,7 @@ function Step1_RegionalRisk({ phase }: { phase: number }) {
           <div style={{ fontSize: 14, lineHeight: 1.7, color: '#cbd5e1' }}>
             <strong style={{ color: 'white' }}>Farmer Rajesh Kumar</strong> grows <strong style={{ color: '#fbbf24' }}>tomatoes</strong> in Village Kharar, Ludhiana District, Punjab.
             <br /><br />
-            The CropShield AI risk engine continuously monitors:
+            The gnan-cropShield risk engine continuously monitors:
           </div>
         </div>
 
@@ -784,9 +784,9 @@ function Step9_Feedback({ phase }: { phase: number }) {
       {phase >= 3 && (
         <div className="demo-card" style={{ textAlign: 'center', marginTop: 16, animation: 'resultReveal 0.5s ease', borderColor: 'rgba(34,197,94,0.3)', background: 'rgba(34,197,94,0.04)' }}>
           <div style={{ fontSize: 24, marginBottom: 8 }}>🌾</div>
-          <div style={{ fontSize: 20, fontWeight: 900, color: 'white', marginBottom: 6 }}>CropShield AI</div>
+          <div style={{ fontSize: 20, fontWeight: 900, color: 'white', marginBottom: 6 }}>gnan-cropShield</div>
           <div style={{ fontSize: 13, color: '#86efac', fontWeight: 700, marginBottom: 4 }}>Predict · Alert · Detect · Advise · Verify · Map · Monitor</div>
-          <div style={{ fontSize: 12, color: '#64748b' }}>Smart India Hackathon 2026</div>
+          <div style={{ fontSize: 12, color: '#64748b' }}>Gnani AI Hackathon 2026 • Powered by Gnani AI</div>
         </div>
       )}
     </div>

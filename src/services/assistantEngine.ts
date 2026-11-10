@@ -358,7 +358,7 @@ export async function processVoiceIntent(
     mode: 'clarification',
     intent: 'GENERAL_ASSISTANCE',
     speechText: 'I can help check your crop health, calculate village risk, read alerts, or show monitoring reports. You can ask "What is the current risk?" or "Are there disease hotspots nearby?".',
-    displayText: 'CropShield Voice Assistant is ready. You can ask: "Check my crop health", "What is the risk in my village?", "Are there disease hotspots nearby?", or "Read my alerts".',
+    displayText: 'gnan-cropShield Voice Assistant is ready. You can ask: "Check my crop health", "What is the risk in my village?", "Are there disease hotspots nearby?", or "Read my alerts".',
     updatedContext: ctx,
   };
 }

@@ -46,7 +46,7 @@ export function HowItWorksPage() {
     <div className="public-page">
       <div className="public-page__hero">
         <div className="container">
-          <h1>How CropShield AI Works</h1>
+          <h1>How gnan-cropShield Works</h1>
           <p className="public-page__lead">
             Our six-stage pipeline ensures comprehensive crop protection from prediction through monitoring.
           </p>

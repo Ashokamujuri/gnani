@@ -30,7 +30,7 @@ export function PublicLayout() {
           <Link to="/" className="public-header__logo">
             <Shield size={28} />
             <div className="public-header__logo-text">
-              <span className="public-header__brand">{tr('CropShield AI')}</span>
+              <span className="public-header__brand">{tr('gnan-cropShield')}</span>
               <span className="public-header__tagline">{t.tagline}</span>
             </div>
           </Link>
@@ -78,13 +78,13 @@ export function PublicLayout() {
         <div className="container public-footer__inner">
           <div className="public-footer__brand">
             <Shield size={20} />
-            <span>{tr('CropShield AI')}</span>
+            <span>{tr('gnan-cropShield')}</span>
           </div>
           <p className="public-footer__text">
             {t.tagline}
           </p>
           <p className="public-footer__copy">
-            © 2026 CropShield AI — Smart India Hackathon Prototype. All rights reserved.
+            © 2026 gnan-cropShield — Powered by Gnani AI. All rights reserved.
           </p>
         </div>
       </footer>

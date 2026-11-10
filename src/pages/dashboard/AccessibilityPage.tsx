@@ -26,10 +26,10 @@ export function AccessibilityPage() {
           <span className="access-intro__highlight">NOT Required</span>
         </h2>
         <p>
-          CropShield AI is designed to reach every farmer — regardless of device ownership.
+          gnan-cropShield is designed to reach every farmer — regardless of device ownership.
           Regional crop-health warnings are delivered through <strong>multiple channels</strong>,
           ensuring that no farmer is left behind. The system uses SMS alerts, automated voice calls
-          in local languages, and field extension workers to bridge the digital divide.
+          powered by Gnani AI Timbre in local languages, and field extension workers to bridge the digital divide.
         </p>
       </div>
 
@@ -118,18 +118,18 @@ export function AccessibilityPage() {
                 <div className="sms-phone__header">
                   <div className="sms-phone__header-icon">🌿</div>
                   <div>
-                    <div>CropShield AI</div>
-                    <div style={{ fontSize: 10, opacity: 0.7, fontWeight: 400 }}>Agricultural Alert Service</div>
+                    <div>gnan-cropShield</div>
+                    <div style={{ fontSize: 10, opacity: 0.7, fontWeight: 400 }}>Gnani AI Alert Service</div>
                   </div>
                 </div>
                 <div className="sms-messages">
                   <div className="sms-bubble sms-bubble--system">
-                    🔒 CropShield Official Alert · Verified
+                    🔒 gnan-cropShield Official Alert · Verified
                   </div>
 
                   <div className="sms-bubble">
                     <div className="sms-bubble__alert">
-                      🚨 CROPSHIELD ALERT
+                      🚨 GNAN-CROPSHIELD ALERT
                     </div>
                     <div className="sms-bubble__text">
                       <strong>High tomato disease risk</strong> detected near{' '}
@@ -174,7 +174,7 @@ export function AccessibilityPage() {
               <div className="sms-phone__notch" />
               <div className="ivr-phone__screen">
                 <div className="ivr-incoming">Incoming Agricultural Alert</div>
-                <div className="ivr-caller">CropShield AI</div>
+                <div className="ivr-caller">gnan-cropShield (Gnani Voice)</div>
                 <div className="ivr-number">1800-XXX-XXXX</div>
 
                 <div className="ivr-lang-badge">

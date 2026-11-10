@@ -1,7 +1,7 @@
-# CropShield AI – SIH 2026 Final Requirement Coverage Report
+# gnan-cropShield – Gnani AI Hackathon 2026 Final Requirement Coverage Report
 
-**Project**: CropShield AI – Proactive Crop Health Early-Warning & Decision Support System  
-**Hackathon**: Smart India Hackathon (SIH) 2026  
+**Project**: gnan-cropShield – Voice-First Proactive Crop Health Early-Warning & Decision Support System  
+**Hackathon**: Gnani AI Hackathon 2026 (Upgraded from SIH prototype)  
 **Status**: COMPLETE & VERIFIED  
 **Build Status**: ✅ `tsc -b && vite build` passed with 0 errors  
 
@@ -157,7 +157,7 @@ Implementation Status
 
 ---
 
-## 12. DEMO — Continuous SIH 2026 Presentation Story
+## 12. DEMO — Continuous Presentation Story (Gnani AI Hackathon)
 
 | Requirement Item | Implemented Feature | Route / Component | Implementation Status |
 |---|---|---|---|
@@ -180,4 +180,4 @@ Implementation Status
 
 ## Final Verification Statement
 
-The CropShield AI SIH 2026 application satisfies **100% of the proposed system requirements** across Predict, Alert, Detect, Contextual Risk, Advise, Multilingual (English, Telugu, Hindi, Marathi), Verify, Map, Officer Dashboard, Monitor, Accessibility, and Demonstration workflows. All code builds with zero errors and is ready for judging and evaluation.
+The gnan-cropShield application satisfies **100% of the proposed system requirements** across Predict, Alert, Detect, Contextual Risk, Advise, Multilingual (English, Telugu, Hindi, Marathi, and 10 Indic languages via Gnani AI), Verify, Map, Officer Dashboard, Monitor, Accessibility, and Demonstration workflows. All code builds with zero errors and is ready for judging and evaluation.

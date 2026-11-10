@@ -50,7 +50,7 @@ export function ContactPage() {
                 <Mail size={20} />
                 <div>
                   <strong>Email</strong>
-                  <p>support@cropshield.ai</p>
+                  <p>support@gnan-cropshield.ai</p>
                 </div>
               </div>
               <div className="contact-info-item">

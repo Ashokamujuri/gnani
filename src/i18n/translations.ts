@@ -276,8 +276,8 @@ export interface TranslationDictionary {
 // ENGLISH
 // ============================================
 const en: TranslationDictionary = {
-  appName: 'CropShield AI',
-  tagline: 'Proactive Crop Health Early-Warning & Decision Support',
+  appName: 'gnan-cropShield',
+  tagline: 'Proactive Crop Health Early-Warning & Decision Support Powered by Gnani AI',
 
   nav: {
     dashboard: 'Dashboard',
@@ -303,8 +303,8 @@ const en: TranslationDictionary = {
   },
 
   login: {
-    title: 'CropShield AI',
-    subtitle: 'Sign in to access the platform',
+    title: 'gnan-cropShield',
+    subtitle: 'Sign in to access Gnani AI Platform',
     email: 'Email Address',
     password: 'Password',
     signIn: 'Sign In',
@@ -526,8 +526,8 @@ const en: TranslationDictionary = {
 // HINDI (हिन्दी)
 // ============================================
 const hi: TranslationDictionary = {
-  appName: 'क्रॉपशील्ड AI',
-  tagline: 'फसल स्वास्थ्य पूर्व-चेतावनी और निर्णय सहायता',
+  appName: 'ज्ञान-क्रॉपशील्ड (Gnani AI)',
+  tagline: 'फसल स्वास्थ्य पूर्व-चेतावनी और निर्णय सहायता • Gnani AI संचालित',
 
   nav: {
     dashboard: 'डैशबोर्ड',
@@ -553,7 +553,7 @@ const hi: TranslationDictionary = {
   },
 
   login: {
-    title: 'क्रॉपशील्ड AI',
+    title: 'ज्ञान-क्रॉपशील्ड (Gnani AI)',
     subtitle: 'प्लेटफॉर्म पर लॉगिन करें',
     email: 'ईमेल पता',
     password: 'पासवर्ड',
@@ -776,8 +776,8 @@ const hi: TranslationDictionary = {
 // TELUGU (తెలుగు)
 // ============================================
 const te: TranslationDictionary = {
-  appName: 'క్రాప్‌షీల్డ్ AI',
-  tagline: 'పంట ఆరోగ్య ముందస్తు హెచ్చరిక & నిర్ణయ సహాయం',
+  appName: 'జ్ఞాన్-క్రాప్‌షీల్డ్ (Gnani AI)',
+  tagline: 'పంట ఆరోగ్య ముందస్తు హెచ్చరిక & నిర్ణయ సహాయం • Gnani AI ఆధారితం',
 
   nav: {
     dashboard: 'డాష్‌బోర్డ్',
@@ -803,7 +803,7 @@ const te: TranslationDictionary = {
   },
 
   login: {
-    title: 'క్రాప్‌షీల్డ్ AI',
+    title: 'జ్ఞాన్-క్రాప్‌షీల్డ్ (Gnani AI)',
     subtitle: 'ప్లాట్‌ఫారమ్‌లోకి లాగిన్ అవ్వండి',
     email: 'ఇమెయిల్ అడ్రస్',
     password: 'పాస్‌వర్డ్',
@@ -1026,8 +1026,8 @@ const te: TranslationDictionary = {
 // MARATHI (मराठी)
 // ============================================
 const mr: TranslationDictionary = {
-  appName: 'क्रॉपशील्ड AI',
-  tagline: 'पीक आरोग्य पूर्व-चेतावणी व निर्णय सहाय्य',
+  appName: 'ज्ञान-क्रॉपशील्ड (Gnani AI)',
+  tagline: 'पीक आरोग्य पूर्व-चेतावणी व निर्णय सहाय्य • Gnani AI समर्थित',
 
   nav: {
     dashboard: 'डॅशबोर्ड',
@@ -1053,7 +1053,7 @@ const mr: TranslationDictionary = {
   },
 
   login: {
-    title: 'क्रॉपशील्ड AI',
+    title: 'ज्ञान-क्रॉपशील्ड (Gnani AI)',
     subtitle: 'प्लॅटफॉर्मवर लॉगिन करा',
     email: 'ईमेल पत्ता',
     password: 'पासवर्ड',

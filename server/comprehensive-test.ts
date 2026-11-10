@@ -29,13 +29,10 @@ import {
   isGnaniBackendConfigured,
   getBackendApiKey,
   getBackendBaseUrl,
-  GNANI_VOICE_CATALOGUE,
 } from './gnaniBackendService';
 
 import {
   processVoiceIntent,
-  getFarmerContext,
-  updateFarmerContext,
 } from '../src/services/assistantEngine';
 
 import type { User } from '../src/types';
