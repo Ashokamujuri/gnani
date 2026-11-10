@@ -1,0 +1,11 @@
+{
+  "name": "CropShield AI",
+  "description": "AI-powered crop disease detection, proactive risk assessment, and surveillance system for farmers and agricultural officers.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,96 @@
+.state-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-12) var(--space-6);
+  text-align: center;
+  gap: var(--space-3);
+  animation: fadeIn var(--transition-base) ease;
+}
+
+.state-display--sm { padding: var(--space-6) var(--space-4); }
+.state-display--lg { padding: var(--space-20) var(--space-8); }
+
+.state-display--inline {
+  flex-direction: row;
+  padding: var(--space-3) var(--space-4);
+  gap: var(--space-2);
+  justify-content: flex-start;
+}
+
+.state-display--inline .state-display__icon-wrapper {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 0;
+}
+
+.state-display__icon {
+  color: var(--color-primary-500);
+}
+
+.state-display__icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-400);
+  margin-bottom: var(--space-2);
+}
+
+.state-display__icon-wrapper--error {
+  background-color: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+.state-display__title {
+  font-size: var(--text-lg);
+  color: var(--color-gray-700);
+}
+
+.state-display__message {
+  font-size: var(--text-sm);
+  color: var(--color-gray-500);
+  max-width: 400px;
+  line-height: var(--leading-relaxed);
+}
+
+/* ---------- Skeleton / Loading Placeholders ---------- */
+.skeleton {
+  background: linear-gradient(90deg, var(--color-gray-100) 25%, var(--color-gray-200) 50%, var(--color-gray-100) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: var(--radius-md);
+}
+
+.skeleton--text {
+  height: 14px;
+  width: 100%;
+  margin-bottom: var(--space-2);
+}
+
+.skeleton--text-short {
+  height: 14px;
+  width: 60%;
+}
+
+.skeleton--heading {
+  height: 24px;
+  width: 40%;
+  margin-bottom: var(--space-3);
+}
+
+.skeleton--card {
+  height: 120px;
+  width: 100%;
+  border-radius: var(--radius-lg);
+}
+
+.skeleton--circle {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+}

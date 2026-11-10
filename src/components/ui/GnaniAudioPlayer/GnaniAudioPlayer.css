@@ -1,0 +1,166 @@
+/* ============================================
+   CropShield AI – Gnani Timbre Audio Player Styles
+   ============================================ */
+
+.gnani-player {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: inherit;
+  vertical-align: middle;
+}
+
+.gnani-player__controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 3px 6px;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.gnani-player__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 10px;
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+
+.gnani-player__btn--play {
+  background: #059669;
+  color: #ffffff;
+}
+
+.gnani-player__btn--play:hover {
+  background: #047857;
+}
+
+.gnani-player__btn--pause {
+  background: #d97706;
+  color: #ffffff;
+}
+
+.gnani-player__btn--pause:hover {
+  background: #b45309;
+}
+
+.gnani-player__btn--secondary {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 4px 8px;
+}
+
+.gnani-player__btn--secondary:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.gnani-player__settings-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  color: #64748b;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  transition: all 0.15s ease;
+}
+
+.gnani-player__settings-btn:hover,
+.gnani-player__settings-btn--active {
+  background: #f1f5f9;
+  color: #059669;
+}
+
+.gnani-player__voice-label {
+  max-width: 75px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+/* Settings Tray */
+.gnani-player__tray {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-size: 0.75rem;
+  animation: tray-pop 0.15s ease;
+}
+
+@keyframes tray-pop {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.gnani-player__tray-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.gnani-player__tray-label {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.gnani-player__select {
+  padding: 3px 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.74rem;
+  background: #f8fafc;
+  color: #0f172a;
+  outline: none;
+}
+
+.gnani-player__select:focus {
+  border-color: #059669;
+}
+
+.gnani-player__error {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #991b1b;
+  font-size: 0.7rem;
+  margin-top: 2px;
+}
+
+/* Size Variants */
+.gnani-player--sm .gnani-player__btn {
+  padding: 2px 7px;
+  font-size: 0.7rem;
+}
+.gnani-player--sm .gnani-player__controls {
+  padding: 2px 4px;
+}
+
+.gnani-player--lg .gnani-player__btn {
+  padding: 6px 14px;
+  font-size: 0.84rem;
+}
+
